@@ -1,0 +1,6 @@
+[service]
+port = 8888
+log.path = "./log/service/"
+log.rotateDays = 7    #定期清理日志文件（天）
+log.rotateSize = 100    #日志文件分片存储大小（MB）
+log.backups = 10    #日志文件分片存储数量

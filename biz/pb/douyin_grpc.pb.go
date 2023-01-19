@@ -4,7 +4,7 @@
 // - protoc             v3.21.12
 // source: douyin.proto
 
-package __
+package pb
 
 import (
 	context "context"
