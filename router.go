@@ -12,5 +12,8 @@ func customizedRegister(r *server.Hertz) {
 	r.GET("/ping", handler.Ping)
 	apiRouter := r.Group("/douyin")
 	apiRouter.POST("/user/register/", handler.Register)
+
 	// your code ...
+	//publishAction
+	apiRouter.POST("/publish/action/", handler.PublishAction)
 }
